@@ -3,7 +3,7 @@
 Console.WriteLine("Введите целое положительное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-if (num > 0)
+if(num > 0) 
 {
     // Задаем начальное значение отсчета (перебора значений)
     int count = -num;
